@@ -1,0 +1,9 @@
+<form method="post" action="index.php?pageID=addProject">
+
+<div class="form-group">
+<label for="projectName">Project Name</label><input required type="text" class="form-control" id="projectName" name="projectName" pattern="[a-zA-Z0-9óáéí'\ ]{1,45}" title="Enter Project name">
+<label for="projectDescription">Project Description</label><input required type="text" class="form-control" id="projectDescription" name="projectDescription" pattern="[a-zA-Z0-9óáéí'\ ]{1,45}" title="Enter the project description" >
+</div>   
+    
+<button type="submit" class="btn btn-default" name="btnAddProject" value='TRUE'>Add Project</button>
+</form>
